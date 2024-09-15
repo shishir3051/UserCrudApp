@@ -34,9 +34,9 @@ const AddUser = () => {
 
     return (
         <div className="container mx-auto mt-5">
-            <form onSubmit={onSubmit} className=" max-w-5xl  ml-80">
+            <form onSubmit={onSubmit} className=" max-w-3xl  ml-56">
                 <div className="mb-4">
-                    <label className="block text-gray-700">First Name</label>
+                    <label className="block text-white">First Name</label>
                     <input
                         type="text"
                         name="firstName"
@@ -46,7 +46,7 @@ const AddUser = () => {
                     />
                 </div>
                 <div className="mb-4">
-                    <label className="block text-gray-700">Last Name</label>
+                    <label className="block text-white">Last Name</label>
                     <input
                         type="text"
                         name="lastName"
@@ -56,7 +56,7 @@ const AddUser = () => {
                     />
                 </div>
                 <div>
-                    <label className="block text-gray-700">Phone</label>
+                    <label className="block text-white">Phone</label>
                     <input
                         type="phone"
                         name="phone"
@@ -68,7 +68,7 @@ const AddUser = () => {
                     />
                 </div>
                 <div className="mb-4">
-                    <label className="block text-gray-700">Email</label>
+                    <label className="block text-white">Email</label>
                     <input
                         type="email"
                         name="email"

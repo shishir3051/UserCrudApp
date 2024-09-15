@@ -48,7 +48,7 @@ const UserList = () => {
             ) : users.length === 0 ? (
                 <p>No users available.</p>
             ) : (
-                <table className="min-w-full table-auto text-center border border-collapse">
+                <table className="min-w-full table-auto text-center border   border-collapse">
                     <thead>
                         <tr className="bg-gray-200">
                             <th className="px-4 py-2">ID</th>
@@ -59,7 +59,7 @@ const UserList = () => {
                             <th className="px-4 py-2">Actions</th>
                         </tr>
                     </thead>
-                    <tbody >
+                    <tbody className="text-white bg-slate-600   ">
                         {users.map((user) => (
                             <tr key={user.id} className="border-t">
                                 <td className="px-4 py-2">{user.id}</td>

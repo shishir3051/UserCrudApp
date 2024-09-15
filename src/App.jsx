@@ -5,6 +5,7 @@ import AddUser from "./components/AddUser";
 import EditUser from "./components/EditUser";
 import Profile from "./components/Profile";
 import Login from "./components/Login";
+import "./App.css";
 import Navbar from "./components/Navbar ";
 
 function App() {
